@@ -1,0 +1,24 @@
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.FileInputStream;
+ 
+class Solution
+{
+    public static void main(String args[]) throws Exception
+    {
+         
+        Scanner sc = new Scanner(System.in);
+        int n;
+        n=sc.nextInt();
+        ArrayList<Integer> num_list = new ArrayList();
+         
+        for(int a=0; a<n; a++){
+            int aa=sc.nextInt();
+            num_list.add(aa);
+        }
+         
+        Collections.sort(num_list);
+        System.out.println(num_list.get(num_list.size()/2));
+    }
+}
