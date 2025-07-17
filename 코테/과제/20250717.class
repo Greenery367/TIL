@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+class Solution {
+    public static void main(String args[]) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();
+
+        for (int test_case = 1; test_case <= T; test_case++) {
+            int n = sc.nextInt();
+            int m = sc.nextInt();
+            int[] n_arr = new int[n];
+            int[] m_arr = new int[m];
+
+            for (int i = 0; i < n; i++) {
+                n_arr[i] = sc.nextInt();
+            }
+            for (int i = 0; i < m; i++) {
+                m_arr[i] = sc.nextInt();
+            }
+
+            int max = Integer.MIN_VALUE;
+
+            if (n <= m) {
+                // n_arr를 m_arr에 슬라이딩
+                for (int i = 0; i <= m - n; i++) {
+                    int sum = 0;
+                    for (int j = 0; j < n; j++) {
+                        sum += n_arr[j] * m_arr[i + j];
+                    }
+                    max = Math.max(max, sum);
+                }
+            } else {
+                // m_arr를 n_arr에 슬라이딩
+                for (int i = 0; i <= n - m; i++) {
+                    int sum = 0;
+                    for (int j = 0; j < m; j++) {
+                        sum += m_arr[j] * n_arr[i + j];
+                    }
+                    max = Math.max(max, sum);
+                }
+            }
+
+            System.out.println("#" + test_case + " " + max);
+        }
+    }
+}
