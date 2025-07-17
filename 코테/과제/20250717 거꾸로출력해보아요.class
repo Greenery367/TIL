@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int T = sc.nextInt();  // 입력받기
+
+        for (int i = T; i >= 0; i--) {
+            System.out.print(i);
+            if (i != 0) {
+                System.out.print(" "); // 마지막에는 공백 없이 끝냄
+            }
+        }
+    }
+}
