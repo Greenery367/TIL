@@ -1,5 +1,11 @@
 # 2025년 07월 16일 일기
+<span style="color:red">
 
+빨강 글씨
+
+Red Font
+
+</span>
 ## (1) 나의 생각
 - _오늘은 너무 졸렸다... 싸피를 며칠이나 쉬다가 집에서 6시 30분에 나오니 지하철에서 잠들 것 같았다... 그래도 셔틀버스를 타니 에어컨이 시원~~해서 좋았다. 셔틀버스에서 NHK 마이아사 뉴스도 듣고... 오늘 할 일도 적고... 좋게 생각하면 자투리시간을 알차게 쓸 수 있는 기회다..._
   ![이미지](https://mblogthumb-phinf.pstatic.net/MjAyMzA2MThfMjY3/MDAxNjg3MDY3MTkwODIw.6EWdj8iT9wser76t7t8n8NWeUc4mLCJAXDlje7yYYoMg.8u_DBgV_8syDpMxLEmiQX4oAPfGo8cI0AhfhuwkQ6Wwg.JPEG.banana_list/IMG_9147.JPG?type=w800)
