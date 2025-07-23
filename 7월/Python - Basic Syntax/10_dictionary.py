@@ -1,0 +1,1 @@
+my_dic = {"apple":2, "banana":5}
