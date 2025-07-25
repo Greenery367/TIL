@@ -3,7 +3,7 @@ import requests
 
 def get_seoul_weather():
     # API KEY
-    API_KEY = ""
+    API_KEY = "5f809c1f484a2216568b1803f184b61d"
     
     # 서울의 위도와 경도
     lat = 37.56
