@@ -1,20 +1,21 @@
 T = int(input())
+count = 0
 
-for i in range(T):
-    var = input()
-    result = 0
-    arr=[]
-    flag = True
-    for j in range(len(var)):
-        if arr.count(var[j]) > 0 and var[j] != var[j-1]:
-            flag = False
-            continue
-            
-        arr.append(var[j])
-        if j == len(var)-1 and flag == True:
-            result += 1
-    
-                
-    
-    
-print(result)
+for _ in range(T):
+    word = input()
+    seen = set()
+    prev_char = ''
+    is_group_word = True
+
+    for char in word:
+        if char != prev_char:
+            if char in seen:
+                is_group_word = False
+                break
+            seen.add(char)
+        prev_char = char
+
+    if is_group_word:
+        count += 1
+
+print(count)
