@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100px;
+      position: relative;
+      top: 30px;
+    }
+    header {
+      text-align: center;
+      max-width: 1200px;
+      background-color: rgb(99, 138, 83);
+      margin: 0 auto;
+      width: 100%;
+    }
+    nav{
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;;
+      background-color: beige;;
+    }
+    nav ul{
+      display: flex;
+      justify-content: center;
+      gap : 20px;
+      list-style: none;;
+    }
+    main{
+      height: 800px;
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0px auto;
+      border: 1px solid black;;
+    }
+    article{
+      width: 60%;
+    }
+    aside{
+      width: 35%;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Header</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h2>Article Title</h2>
+      <p>Article content goes here...</p>
+    </article>
+    <aside>
+      <h3>Aside</h3>
+      <ol>
+        <li><a href="#">Lorem, ipsum.</a></li>
+        <li><a href="#">Lorem, ipsum.</a></li>
+        <li><a href="#">Lorem, ipsum.</a></li>
+      </ol>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
